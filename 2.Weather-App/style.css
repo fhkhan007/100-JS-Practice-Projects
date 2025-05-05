@@ -1,0 +1,33 @@
+
+body{
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.container{
+    width:300px;
+    margin: 100px auto;
+    background: wheat;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+input{
+    width: 80%;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+button{
+    padding: 10px;
+    background-color: rgb(237, 237, 247);
+    color: rgb(28, 27, 25);
+    border: none;
+    cursor: pointer;
+}
+
+#weather-info{
+    margin-top: 20px;
+    font-size: 18px;
+}
