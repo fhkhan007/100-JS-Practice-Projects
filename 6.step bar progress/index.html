@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>\
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <main>
+        <section class="progress-container" aria-label="Step progress">
+             <hr class="progress-bar-back" />
+             <hr class="progress-bar-front" />
+
+             <ol class="steps">
+                <li class="step checked">
+                 <i class="fas fa-check" aria-hidden="true"></i>
+                 <span>Start</span>
+                </li>
+
+                <li class="step">
+            <i class="fas fa-times" aria-hidden="true"></i>
+            <span>Step 2</span>
+          </li>
+          <li class="step">
+            <i class="fas fa-times" aria-hidden="true"></i>
+            <span>Step 3</span>
+          </li>
+          <li class="step">
+            <i class="fas fa-times" aria-hidden="true"></i>
+            <span>Step 4</span>
+          </li>
+          <li class="step">
+            <i class="fas fa-times" aria-hidden="true"></i>
+            <span>Finish</span>
+          </li>
+             </ol>
+        </section>
+
+        <nav aria-label="Step navigation">
+        <button class="btn" id="prev" disabled>
+          <i class="fas fa-arrow-left" aria-hidden="true"></i>
+          <span class="sr-only">Previous step</span>
+        </button>
+        <button class="btn" id="next">
+          <i class="fas fa-arrow-right" aria-hidden="true"></i>
+          <span class="sr-only">Next step</span>
+        </button>
+      </nav>
+    </main>
+
+    <script> src='index.js'</script>
+    
+</body>
+</html>
