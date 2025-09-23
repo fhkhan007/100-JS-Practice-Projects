@@ -1,0 +1,25 @@
+14) Exercises for you (do one at a time)
+
+Add a CSS rule for .note (height, width, margin) and see how the UI changes.
+
+Change id generation to Date.now() and test adding many notes quickly.
+
+Replace filter(...)[0] with find(...) and add a guard if (!target) return;.
+
+Try using element.dataset.id = id inside createNoteEl and read it in the delete handler (shows dataset usage).
+
+Implement a small “Are you sure you want to leave?” beforeunload test (optional).
+
+15) Want me to continue?
+
+I can:
+
+a) Show a small refactor that groups helper functions and cleans code (one patch at a time),
+
+b) Add CSS + make the UI look nicer,
+
+c) Add debounced saving (so it doesn’t write on every keystroke), or
+
+d) Turn this into a tiny React version.
+
+Tell me which one you want next and I’ll do that step-by-step. (If you want, I can start with the CSS or the find() refactor right away.)
