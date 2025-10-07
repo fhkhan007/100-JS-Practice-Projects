@@ -83,6 +83,25 @@ header h1 {
   margin-bottom: 20px;
 }
 
+/* Button */
+button {
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #764ba2, #667eea);
+  transform: scale(1.05);
+}
+
 
 /* ⚓ Footer */
 footer {
